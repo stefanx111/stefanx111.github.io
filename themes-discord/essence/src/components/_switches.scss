@@ -1,9 +1,17 @@
 .container-2nx-BQ {
     background-color: hsl(var(--essence-accent-grey)) !important;
     transition: all 225ms ease;
+    .slider-32CRPX {
+        transform:scale(0.85);
+        transform-origin:center;
+        svg {
+            display: none;
+        }
+    }
+    @for $i from 139 through 218 {
+        &[style^="opacity: 1; background-color: hsl(#{$i}"] {
+            background-color: hsl(var(--essence-accent-brand)) !important;
+        }
+    }
 }
 
-.container-2nx-BQ, .checked-25WXMf{
-    background-color: hsl(var(--essence-accent-brand)) !important;
-    transition: all 225ms ease;  
-}
