@@ -1,0 +1,141 @@
+:root {
+    --essence-theme-author: 'Kanta#0611';
+    --essence-theme-gradient: linear-gradient(70deg, #5865F2, #7289DA);
+    --essence-theme-gradient-animation: defaultGradient 3s ease infinite;
+    --essence-app-background-image: url('https://discord-extensions.github.io/essence/assets/theme-bgs/midnight-essence.png');
+}
+
+.theme-dark, .theme-dark .root-g14mjS, .theme-dark .force-theme.theme-light {
+    --essence-theme-name: 'Discord Dark';
+    
+    /* || Base Palette */
+    --essence-primary: #36393f;
+    --essence-secondary: #2f3136;
+    --essence-alt: #4f545c;
+    --essence-tertiary: #202225;
+    --essence-app-background: #070808;
+    --essence-app-background-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+    --essence-popouts: #18191c;
+    --essence-modals: #36393f;
+    --essence-bgaccent: #252631;
+    --essence-inputs: #292b2f;
+    --essence-card: var(--essence-tertiary);
+    --essence-scroller-thumb: hsl(var(--essence-accent-brand));
+    --essence-scroller-track: #2e3338;
+
+    /* || Text Colors */
+    --essence-text-primary: #ffffff;
+    --essence-text-secondary: #B9BBAD;
+    --essence-text-muted: #A2A6AA;
+    --essence-text-channels: #96989B;
+
+    /* || Interactive Colors */
+    --essence-modifier-rgb: 46, 44, 66;
+    --essence-interactive-primary: #FFFFFF;
+    --essence-interactive-secondary: #B9BBBE;
+    --essence-interactive-alt: #DCDDDE;
+    --essence-interactive-muted: #4F545C;
+    
+    /* || Accent Colors - Adding calc(var(saturation-factor)*X%) is not required. */
+    --essence-accent-brand-saturated: 256, calc(var(--saturation-factor, 1) * 60%), 87%;
+    --essence-accent-brand: 256, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-brand-alt: 256, calc(var(--saturation-factor, 1) * 47%), 20%;
+    --essence-accent-red: 359, calc(var(--saturation-factor, 1)*83%), 59%;
+    --essence-accent-orange: 18, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-yellow: 43, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-green: 140, calc(var(--saturation-factor, 1) * 73%), 47%;
+    --essence-accent-green-alt: 140, calc(var(--saturation-factor, 1) * 56%), 19%;
+    --essence-accent-blue: 209, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-purple: 281, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-grey: 245, 11%, 52%;
+
+    /* || Button Colors */
+    --button-brand-background: hsl(var(--essence-accent-brand));
+    --button-brand-background-hover: hsl(256, calc(var(--saturation-factor, 1) * 74%), 48%);
+    --button-brand-background-active: hsl(256, calc(var(--saturation-factor, 1) * 74%), 40%);
+    --button-brand-background-disabled: hsl(256, calc(var(--saturation-factor, 1) * 82%), 56%);
+    
+    --button-red-background: hsl(var(--essence-accent-red));
+    --button-red-background-hover: hsl(360, calc(var(--saturation-factor, 1) * 72%), 46%);
+    --button-red-background-active: hsl(360, calc(var(--saturation-factor, 1) * 72%), 38%);
+    --button-red-background-disabled: hsl(360, calc(var(--saturation-factor, 1) * 74%), 55%);
+
+    --button-green-background: hsl(140, calc(var(--saturation-factor, 1) * 64%), 42%);
+    --button-green-background-hover: hsl(140, calc(var(--saturation-factor, 1) * 49%), 34%);
+    --button-green-background-active: hsl(140, calc(var(--saturation-factor, 1) * 49%), 26%);
+    --button-green-background-disabled: hsl(140, calc(var(--saturation-factor, 1) * 57%), 41%);
+
+    --button-grey-background: hsl(var(--essence-accent-grey));
+    --button-grey-background-hover: #918EA6;
+    --button-grey-background-active: #ACA9BE;
+    --button-grey-background-disabled: #89869D;
+}
+
+.theme-light {
+    --essence-theme-name: 'Discord Light';
+    
+    /* || Base Palette */
+    --essence-primary: #E0DFEC;
+    --essence-secondary: #EEECF3;
+    --essence-alt: #F6F6F9;
+    --essence-tertiary: #D0D0E2;
+    --essence-app-background: #C8C6DD;
+    --essence-app-background-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12);
+    --essence-popouts: #EFECF3;
+    --essence-modals: #E3E2EE;
+    --essence-bgaccent: #ECECF4;
+    --essence-inputs: #CACADD;
+    --essence-card: var(--essence-tertiary);
+    --essence-scroller-thumb: hsl(var(--essence-accent-brand));
+    --essence-scroller-track: #DCDCEA;
+
+    /* || Text Colors */
+    --essence-text-primary: #06060A;
+    --essence-text-secondary: #8A899A;
+    --essence-text-muted: #817F94;
+    --essence-text-channels: #636272;
+
+    /* || Interactive Colors */
+    --essence-modifier-rgb: 192, 192, 211;
+    --essence-interactive-primary: #06060A;
+    --essence-interactive-secondary: #8B87A0;
+    --essence-interactive-alt: #7C7B8E;
+    --essence-interactive-muted: #727184;
+
+    /* || Accent Colors - Adding calc(var(saturation-factor)*X%) is not required. */
+    --essence-accent-brand-saturated: 256, calc(var(--saturation-factor, 1) * 60%), 87%;
+    --essence-accent-brand: 256, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-brand-alt: 256, calc(var(--saturation-factor, 1) * 47%), 20%;
+    --essence-accent-red: 360, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-orange: 18, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-yellow: 43, calc(var(--saturation-factor, 1) * 78%), 53%;
+    --essence-accent-green: 140, calc(var(--saturation-factor, 1) * 76%), 42%;
+    --essence-accent-green-alt: 140, calc(var(--saturation-factor, 1) * 56%), 19%;
+    --essence-accent-blue: 209, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-purple: 281, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-grey: 245, 11%, 52%;
+
+    /* || Button Colors */
+    --button-brand-background: hsl(var(--essence-accent-brand));
+    --button-brand-background-hover: hsl(256, calc(var(--saturation-factor, 1) * 74%), 48%);
+    --button-brand-background-active: hsl(256, calc(var(--saturation-factor, 1) * 74%), 40%);
+    --button-brand-background-disabled: hsl(256, calc(var(--saturation-factor, 1) * 82%), 56%);
+    
+    --button-red-background: hsl(var(--essence-accent-red));
+    --button-red-background-hover: hsl(360, calc(var(--saturation-factor, 1) * 72%), 46%);
+    --button-red-background-active: hsl(360, calc(var(--saturation-factor, 1) * 72%), 38%);
+    --button-red-background-disabled: hsl(360, calc(var(--saturation-factor, 1) * 74%), 55%);
+
+    --button-green-background: hsl(140, calc(var(--saturation-factor, 1) * 64%), 42%);
+    --button-green-background-hover: hsl(140, calc(var(--saturation-factor, 1) * 49%), 34%);
+    --button-green-background-active: hsl(140, calc(var(--saturation-factor, 1) * 49%), 26%);
+    --button-green-background-disabled: hsl(140, calc(var(--saturation-factor, 1) * 57%), 41%);
+
+    --button-grey-background: hsl(var(--essence-accent-grey));
+    --button-grey-background-hover: #918EA6;
+    --button-grey-background-active: #ACA9BE;
+    --button-grey-background-disabled: #89869D;
+}
+
+
+/* || Theme Specific Changes - Custom changes for the theme should go below this line. */
