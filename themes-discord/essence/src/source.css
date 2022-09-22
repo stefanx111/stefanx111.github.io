@@ -1,5 +1,5 @@
 :root {
-    --essence-version: "1.2.1";
+    --essence-version: "1.0.0";
     /* || Channel Items */
     --container-rounding: 6px;
     --pill-default-height: 20px;
@@ -2171,7 +2171,7 @@
     line-height: 16px;
 }
 .layer-86YKbF .info-3pQQBb::after {
-    content: "Essence " var(--essence-version, "unknown") "\a" var(--essence-theme-name, "unknown") " by " var(--essence-theme-author, "unknown");
+    content: "Theme Main Name " var(--essence-version, "unknown") "\a" var(--essence-theme-name, "unknown") " by " var(--essence-theme-author, "unknown");
     white-space: pre-wrap;
     display: inline-block;
     width: 100%;

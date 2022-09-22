@@ -1,9 +1,9 @@
 :root {
-    --essence-theme-author: 'LuckFire#4800';
+    --essence-theme-author: 'StefanX#1537';
     --essence-theme-name: 'Midnight Mars';
     --essence-theme-gradient: linear-gradient(70deg, #C94B4B, #4B134F);
     --essence-theme-gradient-animation: defaultGradient 3s ease infinite;
-    --essence-app-background-image: url('https://discord-extensions.github.io/essence/assets/theme-bgs/midnight-mars.png');
+    --essence-app-background-image: url('https://stefanx11.github.io/essence/assets/theme-bgs/midnight-mars.png');
 }
 
 .theme-dark, .theme-light {

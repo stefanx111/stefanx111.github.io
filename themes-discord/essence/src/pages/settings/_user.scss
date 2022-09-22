@@ -325,7 +325,7 @@
             line-height: 16px;
         }
         &::after {
-            content: 'Essence 'var(--essence-version, 'unknown') '\a' var(--essence-theme-name, 'unknown') ' by ' var(--essence-theme-author, 'unknown');
+            content: 'Theme Main Name 'var(--essence-version, 'unknown') '\a' var(--essence-theme-name, 'unknown') ' by ' var(--essence-theme-author, 'unknown');
             white-space: pre-wrap;
             display: inline-block;
             width: 100%;
