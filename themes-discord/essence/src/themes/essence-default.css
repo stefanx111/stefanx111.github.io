@@ -2,7 +2,7 @@
     --essence-theme-author: 'StefanX#1537';
     --essence-theme-gradient: linear-gradient(70deg, #FC5C7D, #6938f0);
     --essence-theme-gradient-animation: defaultGradient 3s ease infinite;
-    --essence-app-background-image: url('https://stefanx111.github.io/essence/assets/theme-bgs/midnight-essence.png');
+    --essence-app-background-image: url('https://stefanx111.github.io/themes-discord/essence/src/assets/bg/midnight-essence.png');
 }
 
 .theme-dark, .theme-dark .root-g14mjS, .theme-dark .force-theme.theme-light {
