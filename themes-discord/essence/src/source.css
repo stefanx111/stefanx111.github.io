@@ -574,7 +574,6 @@
     border-radius: var(--essence-default-rounding);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
-    background-color: var(--modal-background);
 }
 #app-mount .root-g14mjS .header-1sd0RU, #app-mount .root-g14mjS .separator-2lLxgC {
     margin: 0 15px;
