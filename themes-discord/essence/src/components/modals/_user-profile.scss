@@ -21,23 +21,23 @@
                 //     border-width: 6px;
                 //     border-radius: calc(var(--avatar-default-rounding) + 1%);
                 // }
-                .headerTop-1PNKck {
-                    flex-direction: column;
-                    top: 104px;
-                    right: 0;
-                    left: 0;
-                    .badgeList-2aoHPw {
-                        display: flex;
-                        justify-content: center;
-                        position: relative;
-                        bottom: 9px;
-                        width: 100%;
-                        padding-right: 0;
-                    }
-                    .relationshipButtons-3ByBpj {
-                        position: fixed;
-                        top: 133px;
-                        right: 15px;
+                // .headerTop-1PNKck {
+                //     flex-direction: column;
+                //     top: 104px;
+                //     right: 0;
+                //     left: 0;
+                    // .badgeList-2aoHPw {
+                    //     display: flex;
+                    //     justify-content: center;
+                    //     position: relative;
+                    //     bottom: 9px;
+                    //     width: 100%;
+                    //     padding-right: 0;
+                    // }
+                    //.relationshipButtons-3ByBpj {
+                    //    position: fixed;
+                    //    top: 133px;
+                    //    right: 15px;
                         // .additionalActionsIcon-3Cy8UU {
                         //     position: fixed;
                         //     top: 20px;
@@ -61,40 +61,41 @@
                         //         color: #fff;
                         //     }
                         // }
-                    }
+                   // }
                     .warningCircleIcon-1YXIHu {
                         position: fixed;
                         align-self: unset;
                         top: 15px;
                         left: 15px;
                     }
-                }
+                //}
             }
-            .nameTag-2Nlmsy {
-                display: flex;
-                justify-content: center;
-                margin-top: 69px;
-            }
+            // .nameTag-2Nlmsy {
+            //     display: flex;
+            //     justify-content: center;
+            //     margin-top: 69px;
+            // }
             .customStatusActivity-WKWGD- {
                 display: flex;
                 justify-content: center;
                 margin-top: 35px;
                 padding-bottom: 0;
+                
             }
         }
         .tabBarContainer-sCZC4w {
             margin: 0 20px;
             padding-left: 0;
             border-bottom-color: var(--background-modifier-accent-alt);            
-            .tabBar-2hXqzU {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
+            // .tabBar-2hXqzU {
+            //     display: flex;
+            //     flex-direction: row;
+            //     justify-content: center;
                 .tabBarItem-30Te4- {
                     &:last-child {
                         margin-right: 0;
                     }
-                }
+               // }
             }
         }
     }
