@@ -538,6 +538,12 @@
     border-top: 1px solid var(--background-modifier-accent-alt);
 }
 
+.pictureInPicture-1GQX91 {
+    position: absolute;
+    top: -18px;
+    left: -10px;
+}
+
 #app-mount .root-g14mjS {
     border-radius: var(--essence-default-rounding);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
